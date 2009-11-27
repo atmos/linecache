@@ -1,6 +1,6 @@
 #!/usr/bin/env rake
 # -*- Ruby -*-
-require 'rubygems'
+Bundler.require_env(:development)
 require 'rake/gempackagetask'
 require 'rake/rdoctask'
 require 'rake/testtask'
